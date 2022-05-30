@@ -22,6 +22,7 @@ export class OrderplacedComponent implements OnInit {
     // To get the data of all the orders from the database when component is loaded 
     this.orderService.getAllOrders().subscribe(data => {
       this.orders = data;
+      console.log("the order is :",this.orders)
     })
 
   }
@@ -35,28 +36,6 @@ export class OrderplacedComponent implements OnInit {
     this.router.navigate(["home",this.token]);
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ngOnDestroy() {
     for (let i = 0; i < this.orders.data.length; i++) {
       this.orderService.deleteOrderRecordById(this.orders.data[i].orderID).subscribe(data => {

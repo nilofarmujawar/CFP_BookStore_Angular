@@ -39,12 +39,12 @@ export class OrdersummeryComponent implements OnInit {
   // It stores the data of the books from the cart and saves it to the database and then routes to the home component
   checkout() {
     for (let i = 0; i < this.cart.data.length; i++) {
-      this.order.userId = 12;
+      this.order.userId =25 ;
       this.order.bookId = this.cart.data[i].book.bookId;
       this.order.quantity = this.cart.data[i].quantity;
       this.order.price = this.cart.data[i].book.price*this.order.quantity;
       console.log("The totel price  ",this.order.price)
-      this.order.address = "ward number 05. jabalpur";
+      this.order.address = "Karmveer nagar,Nandre";
       this.order.cancel = false;
       this.orderService.postOrder(this.order).subscribe((getData: any) => {
         this.order = getData;

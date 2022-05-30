@@ -1,49 +1,4 @@
 .logo-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    margin-left: 150px;
-    margin-top: 15px;
-    
-  }
-  
-    
-  .btn {
-    font: normal normal normal 22px/29px Roboto;
-    background-color:#A03037;
-    border: #2E1D1E;
-   color: white;
-    text-align: center;
-    /* font-size: 16px; */
-    margin: 4px 15px;
-    opacity: 1;
-    transition: 0.3s;
-    display: inline-flexbox;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 10px;
-   
-  }
-  
-
-  form {
-    display: contents;
-    margin-top: 2.5em;
-  }
-
-/* ///// */
-
-.cartlogo{
-  margin-left:70mm;
-  margin-right: 10mm;
-}
-.navbar{
-  color: #ced4da;
-  background-color:#E2E2E2;
-}
-/* awv */
-.logo-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,21 +8,11 @@
   
 }
 
-.addressBook-text {
-  font: normal normal  30px/32px Montserrat;
-  text-align: left;
-  letter-spacing: 0px;
-  opacity: 1;
-  color:darkgray;
-  margin-left: 10px;
-  /* margin-right: 20px; */
-}
-
-
+  
 .btn {
   font: normal normal normal 22px/29px Roboto;
   background-color:#A03037;
-border: blue;
+  border: #2E1D1E;
  color: white;
   text-align: center;
   /* font-size: 16px; */
@@ -82,117 +27,172 @@ border: blue;
 }
 
 
-.form-inline[_ngcontent-rgt-c48] {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-
 form {
   display: contents;
   margin-top: 2.5em;
 }
-.form-control {
-  /* display: block; */
 
-  margin-top: 60mm;
-  margin-left: 23mm;
-  display: block;
-  width: 440px;
-  padding: 0.375rem 0.75rem;
-  margin: 2px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 0.25rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+/* ///// */
+
+.cartlogo{
+margin-left:70mm;
+margin-right: 10mm;
+}
+.navbar{
+color: #ced4da;
+background-color:#E2E2E2;
+}
+/* awv */
+.logo-content {
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 80%;
+margin-left: 150px;
+margin-top: 15px;
+
+}
+
+.addressBook-text {
+font: normal normal  30px/32px Montserrat;
+text-align: left;
+letter-spacing: 0px;
+opacity: 1;
+color:darkgray;
+margin-left: 10px;
+/* margin-right: 20px; */
+}
+
+
+.btn {
+font: normal normal normal 22px/29px Roboto;
+background-color:#A03037;
+border: blue;
+color: white;
+text-align: center;
+/* font-size: 16px; */
+margin: 4px 15px;
+opacity: 1;
+transition: 0.3s;
+display: inline-flexbox;
+text-decoration: none;
+cursor: pointer;
+border-radius: 10px;
+
+}
+
+
+.form-inline[_ngcontent-rgt-c48] {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+form {
+display: contents;
+margin-top: 2.5em;
+}
+.form-control {
+/* display: block; */
+
+margin-top: 60mm;
+margin-left: 23mm;
+display: block;
+width: 440px;
+padding: 0.375rem 0.75rem;
+margin: 2px;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+border-radius: 0.25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 /* ................................................................................................ */
 .navbar{
-  background-color:#78244C  ;
+background-color:#78244C  ;
 }
 
 /* ................................................................................................. */
 .img{
-  margin-left: 100mm;
-  color: #A03037;
+margin-left: 100mm;
+color: #A03037;
 }
 .cart{
-  color: black;
+color: black;
 }
 
 
 .select{
-  background-color:whitesmoke;
-  
-  
+background-color:whitesmoke;
+
+
 }
 
 .myvalue{
-  font-size: 5mm;
-  height: 10mm;
-  border-radius:1mm;
-  background-color:white;
+font-size: 5mm;
+height: 10mm;
+border-radius:1mm;
+background-color:white;
 }
 
 
 .column-content{
-    font: normal normal normal 22px/29px Roboto;
-    background-color:#A03037;
-    border:#2E1D1E;
-    color: #A03037;
-    text-align: center;
-    margin-right: 0mm;
-    margin-left: 0mm;
-    margin: 4px 15px;
-    transition: 0.1s;
-    text-decoration: dotted;
-    /* opacity: 1; */
-    /* transition: 0.3s; */
-    /* display: inline-flexbox; */
-    text-decoration:#A03037;
-    cursor: pointer;
-    border-radius: 10px;
-    border:#2E1D1E;
+  font: normal normal normal 22px/29px Roboto;
+  background-color:#A03037;
+  border:#2E1D1E;
+  color: #A03037;
+  text-align: center;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  margin: 4px 15px;
+  transition: 0.1s;
+  text-decoration: dotted;
+  /* opacity: 1; */
+  /* transition: 0.3s; */
+  /* display: inline-flexbox; */
+  text-decoration:#A03037;
+  cursor: pointer;
+  border-radius: 10px;
+  border:#2E1D1E;
 
 }
 
 .column{
-  font: normal normal normal 22px/29px Roboto;
-    background-color:#A03037;
-    border:#2E1D1E;
-    color: #A03037;
-    text-align: center;
-    margin-right: 0mm;
-    margin-left: 0mm;
-    margin: 4px 15px;
-    transition: 0.1s;
-    text-decoration: dotted;
-    /* opacity: 1; */
-    /* transition: 0.3s; */
-    /* display: inline-flexbox; */
-    text-decoration:#A03037;
-    cursor: pointer;
-    border-radius: 50%;
-    border:#2E1D1E;
+font: normal normal normal 22px/29px Roboto;
+  background-color:#A03037;
+  border:#2E1D1E;
+  color: #A03037;
+  text-align: center;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  margin: 4px 15px;
+  transition: 0.1s;
+  text-decoration: dotted;
+  /* opacity: 1; */
+  /* transition: 0.3s; */
+  /* display: inline-flexbox; */
+  text-decoration:#A03037;
+  cursor: pointer;
+  border-radius: 50%;
+  border:#2E1D1E;
 }
 
 .logo-content[_ngcontent-pvo-c49] {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  margin-left: 150px; 
-  margin-top: 15px;
-  background-color: #A03037;
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+margin-left: 150px; 
+margin-top: 15px;
+background-color: #A03037;
 }
 
 .length{
@@ -254,7 +254,7 @@ border-color:lightgray;
 border-radius: 5px;
 }
 .green{
-  font-size: 13px;
+font-size: 13px;
 color: white;
 background-color: #A03037;
 height: 50px;
@@ -329,15 +329,14 @@ margin-top:10px;
 
 
 .card-container[_ngcontent-wgw-c49] {
-    height: auto;
-    width: 180px;
-    flex: 0 0 21%;
-    margin-right: 40px;
-    margin-bottom: 30px;
+  height: auto;
+  width: 180px;
+  flex: 0 0 21%;
+  margin-right: 40px;
+  margin-bottom: 30px;
 }
 #btn{
-  border-radius: 10%;
-  background-color: #2E1D1E;
-  color: white;
+border-radius: 10%;
+background-color: #2E1D1E;
+color: white;
 }
-
