@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
 
   // route to login
   gotohome(){
-    this.route.navigate(["login"])
+    this.route.navigate(["home"])
   }
 
 }

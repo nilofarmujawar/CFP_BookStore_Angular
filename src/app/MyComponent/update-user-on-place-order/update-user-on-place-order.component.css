@@ -295,8 +295,8 @@ body {
 
 .card {
     border: none;
-    padding: 20px;
-    background-color:#2D4159;
+    padding: 50px;
+    background-color:black;
     color: #fff
 }
 
@@ -327,7 +327,7 @@ body {
 
 .form-control {
     height: 50px;
-    background-color:white;
+    background-color:rgb(245, 217, 217);
     text-indent: 24px;
     font-size: 15px
 }

@@ -11,7 +11,7 @@ import { UserService } from 'src/app/bookstoreservice/user.service';
 export class OrderplacedComponent implements OnInit {
 
   // To store the list of order getting from database
-  orders: any;
+  order: any;
   token=this.route.snapshot.paramMap.get("token")
 
   // Injected all the depencencies to the Constructor : order-Service,user-Service,Router.
@@ -21,8 +21,8 @@ export class OrderplacedComponent implements OnInit {
 
     // To get the data of all the orders from the database when component is loaded 
     this.orderService.getAllOrders().subscribe(data => {
-      this.orders = data;
-      console.log("the order is :",this.orders)
+      this.order = data;
+      console.log("the order is :",this.order)
     })
 
   }
